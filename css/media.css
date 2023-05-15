@@ -1,0 +1,89 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px) and (max-width: 1440px) {}
+
+@media (min-width:1025px) and (max-width:1200px) {}
+
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px) {}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media(max-width:992px) {}
+
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px) {}
+
+@media (min-width: 577px) and (max-width: 768px) {}
+
+@media(max-width:576px) {
+  .hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+
+  .hero h4 {
+    padding-bottom: 0;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .hero p {
+    font-size: 10px;
+  }
+
+  .banner h2 {
+    font-size: 17px;
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 375px) {}
+
+@media (max-width: 426px) {
+  .blog .blog-box .blog-img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .about-head img{
+   margin-bottom: 20px;
+   width: 100%;
+  }
+  .about-head h2{
+    font-size: 26px;
+  }
+  .about-app h1{
+    font-size: 26px;
+  }
+  .cart{
+    overflow-x: auto;
+  }
+  .product-1 .card .cart {
+    border: none;
+  }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 779px) {
+  .offcanvas-header {
+    background-color: #e3e6f3;
+  }
+
+  .offcanvas-body {
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .navbar-nav li {
+    margin-bottom: 25px
+  }
+}
